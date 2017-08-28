@@ -5,7 +5,7 @@ module.exports = class student{
 		this.数学 = Math    ;
 		this.英语 = English ;
 		this.编程 = programming ;
-		this.平均分 = Number(((this.语文 + this.数学 + this.英语) / 4).toFixed(1));
+		this.平均分 = Number(((this.语文 + this.数学 + this.英语 + this.编程) / 4).toFixed(1));
 		this.总分 = this.语文 + this.数学 + this.英语 + this.编程;
 	}
 };
